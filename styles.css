@@ -1,0 +1,52 @@
+/*#00c4cc text color*/
+/*#40596B background*/
+/*#F2F2F2 container background*/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	background: #40596B;
+	text-align: center;
+	color: #00c4cc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	width: 1000px;
+	height: 400px;
+	background: #F2F2F2;
+	margin: 25px 0 30px;
+	border-radius: 8px;
+}
+
+#btn-increment {
+	width: 200px;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	background: #F2F2F2;
+	color: #40596B;
+}
+
+#btn-save {
+	width: 200px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: none;
+	background: #F2F2F2;
+	color: #40596B;
+}
+
+#btn-increment:hover {
+	background: lightgrey;
+	color: #40596B;
+}
+
+#btn-save:hover {
+	background: lightgrey;
+	color: #40596B;
+}
