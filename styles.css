@@ -16,7 +16,7 @@ body {
 
 .container {
 	width: 1000px;
-	height: 400px;
+	max-height: 80%;
 	background: #F2F2F2;
 	margin: 25px 0 30px;
 	border-radius: 8px;
